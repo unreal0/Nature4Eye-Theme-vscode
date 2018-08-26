@@ -1,0 +1,54 @@
+{
+  "name": "Nature4Eye Theme",
+  "displayName": "Nature For EYE Theme",
+  "description": "A UI and syntax theme for VSCode based on the rainbow colors.",
+  "version": "0.0.1",
+  "publisher": "unreal0",
+  "bugs": {
+    "url": "https://github.com/unreal0/nature4eye-Theme-vscode"
+  },
+  "homepage": "https://github.com/unreal0/nature4eye-Theme-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unreal0/nature4eye-Theme-vscode"
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nature4Eye Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nature4Eye-dark.json"
+      },
+      {
+        "label": "Nature4Eye DarkGreen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nature4Eye-darkgreen.json"
+      },
+      {
+        "label": "Nature4Eye Dark2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nature4Eye-dark2.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "Green nature",
+    "nature",
+    "Green",
+    "theme",
+    "dark",
+    "eye"
+  ],
+  "devDependencies": {
+    "docsify-cli": "^3.3.2",
+    "nodemon": "^1.12.0",
+    "vsce": "^1.30.0"
+  }
+}
